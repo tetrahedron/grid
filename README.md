@@ -10,7 +10,7 @@
 
 # Tetrahedron Grid
 
-Tetrahedron Grid is a responsive flexbox grid system for styled-components that is unopinionated.
+Tetrahedron Grid is a responsive flexbox grid system for [styled-components](https://github.com/styled-components/styled-components) that is unopinionated.
 
 ## Quick Jump
 
