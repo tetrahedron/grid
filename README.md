@@ -210,6 +210,8 @@ Although you can name breakpoints whatever you want, there are a few names that 
 
 Tetrahedron Grid is a project by [Garet McKinley](https://github.com/garetmckinley)
 
+Want to help? Join our [Spectrum.chat community](https://spectrum.chat/tetrahedron) to get started!
+
 ## License
 
 MIT
