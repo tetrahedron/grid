@@ -59,6 +59,7 @@
     "prop-types": "^15.0.0"
   },
   "peerDependencies": {
+    "@tetrahedron/core": "^0.1.0",
     "react": "^15.0.0",
     "styled-components": "1.1.3 || ^2.0.0"
   }

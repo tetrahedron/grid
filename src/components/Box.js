@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 import styled, { css } from "styled-components";
+import { Stylable } from "@tetrahedron/core";
 
 import { flex, drawDebug, breakpoints } from "../helpers";
-import Stylable from "./Stylable";
 import { withBreakpoints } from "./GridProvider";
 
 const Box = styled(Stylable("div"))`
@@ -16,7 +16,7 @@ Box.propTypes = {
   // Debug Properties
   debug: PropTypes.bool,
   // Flex-specific Properties
-  flex: PropTypes.string,
+  flex: PropTypes.bool,
   fill: PropTypes.bool,
   fluid: PropTypes.bool,
   shiftRight: PropTypes.bool,

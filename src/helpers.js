@@ -1,21 +1,9 @@
 import { css } from "styled-components";
+import { utils } from "@tetrahedron/core";
 
 export const drawDebug = () => [
   "background: rgba(0, 255, 255, 0.1);",
   "border: 1px dashed rgba(255, 0, 255, 1);",
-];
-
-export const generateStyles = props => [
-  props.padding && `padding: ${props.padding};`,
-  props.margin && `margin: ${props.margin};`,
-  props.width && `width: ${props.width};`,
-  props.height && `height: ${props.height};`,
-  props.visibility && `visibility: ${props.visibility};`,
-  props.display && `display: ${props.display};`,
-  props.opacity && `opacity: ${props.opacity};`,
-  props.background && `background: ${props.background};`,
-  props.border && `border: ${props.border};`,
-  props.hidden && `display: none;`,
 ];
 
 export const breakpoints = props => {
@@ -28,7 +16,7 @@ export const breakpoints = props => {
           @media (min-width: ${props.breakpoints[
               id
             ][0]}px) and (max-width: ${props.breakpoints[id][1]}px) {
-            ${generateStyles(props[id])};
+            ${utils.generateStyles(props[id])};
           }
         `,
       ]

@@ -70,8 +70,12 @@ if (prod) plugins.push(uglify());
 export default {
   entry: "src/index.js",
   exports: "named",
-  external: ["react", "styled-components"],
-  globals: { react: "React", "styled-components": "styled" },
+  external: ["react", "styled-components", "@tetrahedron/core"],
+  globals: {
+    react: "React",
+    "styled-components": "styled",
+    "@tetrahedron/core": "core",
+  },
   moduleName: "tetrahedron.grid",
   plugins,
   targets,

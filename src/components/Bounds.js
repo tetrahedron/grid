@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 import styled from "styled-components";
+import { Stylable } from "@tetrahedron/core";
 
 import { flex, drawDebug, breakpoints } from "../helpers";
-import Stylable from "./Stylable";
 
 /**
  * Bounds functions as a container to wrap `Box` components.
