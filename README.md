@@ -19,8 +19,8 @@ Tetrahedron Grid is a responsive flexbox grid system for styled-components that 
 3. [Usage](#usage)
 4. [Documentation](#documentation)
    1. [`Grid.Provider`](#gridprovider)
-   2. [`Grid.Bounds`](#gridprovider)
-   3. [`Grid.Box`](#gridprovider)
+   2. [`Grid.Bounds`](#gridbounds)
+   3. [`Grid.Box`](#gridbox)
 
 ## Features
 
