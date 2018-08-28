@@ -3,6 +3,5 @@ node_js:
   - "lts/*"
   - "node"
   - "8"
-  - "7"
   - "6"
 script: npm run lint
