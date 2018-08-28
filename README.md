@@ -3,6 +3,9 @@
 </p>
 
 <p align="center">
+  <a href="https://travis-ci.org/tetrahedron/grid">
+    <img src="https://travis-ci.org/tetrahedron/grid.svg?branch=master" alt="Travis CI build status">
+  </a>
   <a href="https://spectrum.chat/tetrahedron">
     <img src="https://withspectrum.github.io/badge/badge.svg" alt="Join the community on Spectrum">
   </a>
