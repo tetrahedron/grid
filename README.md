@@ -12,6 +12,16 @@
 
 Tetrahedron Grid is a responsive flexbox grid system for styled-components that is unopinionated.
 
+## Quick Jump
+
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Documentation](#documentation)
+   1. [`Grid.Provider`](#gridprovider)
+   2. [`Grid.Bounds`](#gridprovider)
+   3. [`Grid.Box`](#gridprovider)
+
 ## Features
 
 - Add unlimited breakpoints
@@ -103,7 +113,7 @@ const App = () => (
 ReactDOM.render(<App />, document.getElementById("root"));
 ```
 
-You don't need to fill all screen sizes either, if you only need elements to change on a single resolution, just add a single breakpoint! To learn more about breakpoints, check out the documentation for [`Grid.Provider`](#grid.provider).
+You don't need to fill all screen sizes either, if you only need elements to change on a single resolution, just add a single breakpoint! To learn more about breakpoints, check out the documentation for [`Grid.Provider`](#gridprovider).
 
 ## Documentation
 
@@ -152,6 +162,46 @@ Although you can name breakpoints whatever you want, there are a few names that 
 - `width`
 
 </p></details>
+
+### `Grid.Bounds`
+
+#### Props
+
+- `debug` : `boolean`
+  - Outlines the grid system so you can visualize the layout
+- `flex`: `string` - structure: `grow shrink basis`
+  - Controls the CSS `flex` property
+- `direction`: `string` - `horizontal` or `vertical`
+  - Sets the primary axis the children should be in line with
+- `wrap`: `boolean`
+  - Sets whether the children should wrap when there's no more room on the primary axis
+- `valign`: `string` - `top`, `center`, or `bottom`
+  - Alignment of children along the vertical axis
+- `halign`: `string` - `left`, `center`, or `right`
+  - Alignment of children along the horizontal axis
+
+### `Grid.Box`
+
+#### Props
+
+- `debug` : `boolean`
+  - Outlines the grid system so you can visualize the layout
+- `debug` : `boolean`
+  - Outlines the grid system so you can visualize the layout
+- `flex`: `string` - structure: `grow shrink basis`
+  - Controls the CSS `flex` property
+- `fill`: `boolean`
+  - Sets whether the `Box` should fill up all available space
+- `fluid`: `boolean`
+  - Convenience property for disabling padding
+- `shiftRight`: `boolean`
+  - Shifts the box to the right of the parent `Bounds`
+- `shiftLeft`: `boolean`
+  - Shifts the box to the ;eft of the parent `Bounds`
+- `shiftUp`: `boolean`
+  - Shifts the box to the top of the parent `Bounds`
+- `shiftDown`: `boolean`
+  - Shifts the box to the bottom of the parent `Bounds`
 
 ## Credits
 
