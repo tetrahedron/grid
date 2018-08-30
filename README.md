@@ -18,9 +18,10 @@ Tetrahedron Grid is a responsive flexbox grid system for [styled-components](htt
 ## Quick Jump
 
 1. [Features](#features)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Documentation](#documentation)
+2. [Requirements](#requirements)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Documentation](#documentation)
    1. [`Grid.Provider`](#gridprovider)
    2. [`Grid.Bounds`](#gridbounds)
    3. [`Grid.Box`](#gridbox)
@@ -30,6 +31,13 @@ Tetrahedron Grid is a responsive flexbox grid system for [styled-components](htt
 - Add unlimited breakpoints
 - Any property can be altered by a breakpoint
 - Debug mode that allows easy visualization of your layout
+
+## Requirements
+
+The follow dependencies must be installed in your project in order for Tetrahedron Grid to work.
+
+- [`styled-components`](https://github.com/styled-components/styled-components) 1.1.3 and up
+- [`@tetrahedron/core`](https://github.com/tetrahedron/core) 0.1.0 and up
 
 ## Installation
 
@@ -183,6 +191,8 @@ Although you can name breakpoints whatever you want, there are a few names that 
 - `halign`: `string` - `left`, `center`, or `right`
   - Alignment of children along the horizontal axis
 
+`Grid.Bounds` also inherits all properties that [`Stylable`](https://github.com/tetrahedron/core#stylable) has.
+
 ### `Grid.Box`
 
 #### Props
@@ -205,6 +215,8 @@ Although you can name breakpoints whatever you want, there are a few names that 
   - Shifts the box to the top of the parent `Bounds`
 - `shiftDown`: `boolean`
   - Shifts the box to the bottom of the parent `Bounds`
+
+`Grid.Box` also inherits all properties that [`Stylable`](https://github.com/tetrahedron/core#stylable) has.
 
 ## Credits
 
